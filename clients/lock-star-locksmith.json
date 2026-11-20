@@ -1,0 +1,12 @@
+{
+  "text": [
+    {
+      "find": "Emergency Locksmith",
+      "replace": "{city} Locksmith"
+    }
+  ],
+  "states": [
+    "NJ"
+  ],
+  "max_len": 16
+}

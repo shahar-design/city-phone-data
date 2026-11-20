@@ -1,0 +1,14 @@
+{
+  "text": [
+    {
+      "find": "in Your Area",
+      "replace": "in {city}"
+    }
+  ],
+  "states": [
+    "MS",
+    "AL"
+  ],
+  "max_len": 40,
+  "fit": true
+}

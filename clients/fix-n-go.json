@@ -1,0 +1,12 @@
+{
+  "text": [
+    {
+      "find": "— Serving Your Area",
+      "replace": "— Serving {city}"
+    }
+  ],
+  "states": [
+    "TX"
+  ],
+  "max_len": 13
+}

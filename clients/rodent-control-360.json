@@ -1,0 +1,12 @@
+{
+  "text": [
+    {
+      "find": "in Your Area",
+      "replace": "in {city}"
+    }
+  ],
+  "states": [
+    "CA"
+  ],
+  "max_len": 13
+}

@@ -1,0 +1,38 @@
+{
+  "text": [
+    {
+      "find": "Your Area",
+      "replace": "{city}"
+    }
+  ],
+  "numbers": {
+    "424": "(888) 800-5037",
+    "951": "(888) 800-5037",
+    "805": "(888) 800-5037",
+    "949": "(888) 800-5037"
+  },
+  "default": "424",
+  "fallback": {
+    "323": "424",
+    "213": "424",
+    "310": "424",
+    "818": "424",
+    "747": "424",
+    "626": "424",
+    "562": "424",
+    "661": "805",
+    "714": "949",
+    "657": "949",
+    "909": "951",
+    "760": "951",
+    "442": "951",
+    "840": "951",
+    "820": "805"
+  },
+  "pools": {
+    "424": "https://backend.leadconnectorhq.com/appengine/loc/c8oKoRgnrJZCjejlJFBY/pool/N4OMo33YfhiDNtJgxOnL/number_pool.js",
+    "951": "https://backend.leadconnectorhq.com/appengine/loc/c8oKoRgnrJZCjejlJFBY/pool/oCkJTMfLS8VrfQbYuVui/number_pool.js",
+    "805": "https://backend.leadconnectorhq.com/appengine/loc/c8oKoRgnrJZCjejlJFBY/pool/u5AHenlvaYZYhCBRpanN/number_pool.js",
+    "949": "https://backend.leadconnectorhq.com/appengine/loc/c8oKoRgnrJZCjejlJFBY/pool/FsdBO5aFzcEHLxBZdHEb/number_pool.js"
+  }
+}

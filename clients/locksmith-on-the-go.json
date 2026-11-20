@@ -1,0 +1,13 @@
+{
+  "text": [
+    {
+      "find": "24/7(?=\\s+(?:emergency\\s+|residential\\s+)?locksmith\\s+solutions)",
+      "replace": "{city}",
+      "regex": true
+    }
+  ],
+  "states": [
+    "NY"
+  ],
+  "max_len": 13
+}

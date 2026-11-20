@@ -1,0 +1,22 @@
+{
+  "text": [
+    {
+      "find": "Your Area",
+      "replace": "{city}"
+    }
+  ],
+  "numbers": {
+    "413": "(413) 475-9824",
+    "508": "(617) 685-8385"
+  },
+  "default": "413",
+  "fallback": {
+    "774": "508",
+    "978": "508",
+    "351": "508"
+  },
+  "pools": {
+    "413": "https://backend.leadconnectorhq.com/appengine/loc/J4BmZ80QFHQNtmF22bmF/pool/JDsRtB0wJ96CAIkWbK4o/number_pool.js",
+    "508": "https://backend.leadconnectorhq.com/appengine/loc/J4BmZ80QFHQNtmF22bmF/pool/2fCqdHP00f6uHgUr9W05/number_pool.js"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "text": [
+    {
+      "find": "Local Sliding Door",
+      "replace": "{city} Sliding Door"
+    }
+  ],
+  "states": [
+    "FL"
+  ],
+  "max_len": 40,
+  "fit": true
+}

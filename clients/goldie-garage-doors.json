@@ -1,0 +1,13 @@
+{
+  "text": [
+    {
+      "find": "Local Garage Door",
+      "replace": "{city} Garage Door"
+    }
+  ],
+  "states": [
+    "NJ",
+    "FL"
+  ],
+  "max_len": 13
+}

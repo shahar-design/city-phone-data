@@ -1,0 +1,26 @@
+{
+  "text": [
+    {
+      "find": "Your Area",
+      "replace": "{city}"
+    }
+  ],
+  "numbers": {
+    "313": "(947) 222-4819",
+    "734": "(947) 222-4819",
+    "586": "(947) 222-4819",
+    "248": "(947) 222-4819"
+  },
+  "default": "313",
+  "fallback": {
+    "947": "248",
+    "517": "734",
+    "810": "734"
+  },
+  "pools": {
+    "313": "https://backend.leadconnectorhq.com/appengine/loc/sOgF3KudiEPm6XNRhU9T/pool/0ucFP5VzxKLl0Pm7dUxi/number_pool.js",
+    "734": "https://backend.leadconnectorhq.com/appengine/loc/sOgF3KudiEPm6XNRhU9T/pool/1gWxAzDWzefBpgkV0WVx/number_pool.js",
+    "586": "https://backend.leadconnectorhq.com/appengine/loc/sOgF3KudiEPm6XNRhU9T/pool/wy3b4os0LjWGojuPUsEQ/number_pool.js",
+    "248": "https://backend.leadconnectorhq.com/appengine/loc/sOgF3KudiEPm6XNRhU9T/pool/CnSdPC7Hpp5mIUfRTA64/number_pool.js"
+  }
+}

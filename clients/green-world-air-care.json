@@ -1,0 +1,23 @@
+{
+  "text": [
+    {
+      "find": "Your Area",
+      "replace": "{city}"
+    }
+  ],
+  "numbers": {
+    "860": "(860) 743-0390",
+    "401": "(401) 386-8453"
+  },
+  "default": "860",
+  "fallback": {
+    "959": "860"
+  },
+  "extra": {
+    "North Kingstown": "401"
+  },
+  "pools": {
+    "860": "https://backend.leadconnectorhq.com/appengine/loc/j4U8pgQYlxyeUwTPVQSt/pool/KE5WNrWDxETVohGusWEz/number_pool.js",
+    "401": "https://backend.leadconnectorhq.com/appengine/loc/j4U8pgQYlxyeUwTPVQSt/pool/6OHGFlYGtdC1Ab2Rmy7z/number_pool.js"
+  }
+}

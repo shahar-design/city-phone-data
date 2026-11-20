@@ -1,0 +1,13 @@
+{
+  "text": [
+    {
+      "find": "in Your Area",
+      "replace": "in {city}"
+    }
+  ],
+  "states": [
+    "PA",
+    "NJ"
+  ],
+  "max_len": 13
+}

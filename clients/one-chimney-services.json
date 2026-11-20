@@ -1,0 +1,28 @@
+{
+  "text": [
+    {
+      "find": "Your Area",
+      "replace": "{city}"
+    }
+  ],
+  "numbers": {
+    "206": "(206) 672-2317",
+    "253": "(253) 367-2239",
+    "425": "(425) 474-2004"
+  },
+  "default": "206",
+  "fallback": {
+    "360": "253",
+    "564": "253"
+  },
+  "extra": {
+    "East Hill-Meridian": "253",
+    "Inglewood-Finn Hill": "425",
+    "Preston": "425"
+  },
+  "pools": {
+    "206": "https://backend.leadconnectorhq.com/appengine/loc/UY20k94lUexn7zbu1zKb/pool/mbN6WQ0oSwGmho7uhB7U/number_pool.js",
+    "253": "https://backend.leadconnectorhq.com/appengine/loc/UY20k94lUexn7zbu1zKb/pool/fsqn8DBx306uIPJbK5RR/number_pool.js",
+    "425": "https://backend.leadconnectorhq.com/appengine/loc/UY20k94lUexn7zbu1zKb/pool/sW4fBj0Q0jjNye6sFppx/number_pool.js"
+  }
+}
