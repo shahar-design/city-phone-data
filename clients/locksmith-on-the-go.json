@@ -4,6 +4,10 @@
       "find": "24/7(?=\\s+(?:emergency\\s+|residential\\s+)?locksmith\\s+solutions)",
       "replace": "{city}",
       "regex": true
+    },
+    {
+      "find": "Your Area",
+      "replace": "{city}"
     }
   ],
   "states": [

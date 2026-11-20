@@ -3,6 +3,10 @@
     {
       "find": "Emergency Locksmith",
       "replace": "{city} Locksmith"
+    },
+    {
+      "find": "Your Area",
+      "replace": "{city}"
     }
   ],
   "states": [

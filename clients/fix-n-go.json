@@ -3,6 +3,10 @@
     {
       "find": "— Serving Your Area",
       "replace": "— Serving {city}"
+    },
+    {
+      "find": "Your Area",
+      "replace": "{city}"
     }
   ],
   "states": [

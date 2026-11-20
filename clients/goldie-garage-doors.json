@@ -3,6 +3,10 @@
     {
       "find": "Local Garage Door",
       "replace": "{city} Garage Door"
+    },
+    {
+      "find": "Your Area",
+      "replace": "{city}"
     }
   ],
   "states": [

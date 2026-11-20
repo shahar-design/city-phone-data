@@ -3,6 +3,10 @@
     {
       "find": "Local Sliding Door",
       "replace": "{city} Sliding Door"
+    },
+    {
+      "find": "Your Area",
+      "replace": "{city}"
     }
   ],
   "states": [
