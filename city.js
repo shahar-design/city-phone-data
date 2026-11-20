@@ -26,6 +26,15 @@
   var me = document.currentScript ||
     [].slice.call(document.querySelectorAll('script[src*="city.js"]')).pop();
   if (!me) return;
+  // Home is GitHub Pages (updates in ~10 min). A page still pointing at the old jsDelivr copy hands over to it.
+  var HOME = 'https://shahar-design.github.io/city-phone-data/';
+  if (me.src.indexOf(HOME) !== 0) {
+    var s = document.createElement('script');
+    s.src = HOME + 'city.js';
+    s.setAttribute('data-client', me.getAttribute('data-client'));
+    me.parentNode.insertBefore(s, me.nextSibling);
+    return;
+  }
   var BASE = me.src.replace(/city\.js(\?.*)?$/, '');
   var CLIENT = me.getAttribute('data-client');
   var VER = (me.src.split('?')[1] || '');
