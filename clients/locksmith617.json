@@ -3,6 +3,10 @@
     {
       "find": "Your Area",
       "replace": "{city}"
+    },
+    {
+      "find": "24/7 Emergency Locksmith",
+      "replace": "24/7 Emergency Locksmith in {city}"
     }
   ],
   "numbers": {
