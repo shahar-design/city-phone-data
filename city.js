@@ -32,8 +32,9 @@
   var params = new URLSearchParams(window.location.search);
   var KEY = 'sb_city';
 
-  function getJSON(path) {
-    return fetch(BASE + path + (VER ? '?' + VER : '')).then(function (r) {
+  function getJSON(path, fresh) {
+    // fresh: re-check with the CDN on every visit (settings change; the CDN tells browsers to keep files 7 days).
+    return fetch(BASE + path + (VER ? '?' + VER : ''), fresh ? { cache: 'no-cache' } : {}).then(function (r) {
       if (!r.ok) throw new Error(r.status);
       return r.json();
     });
@@ -52,7 +53,7 @@
   var asked = (params.get('city') || '').trim().slice(0, 30);
 
   // Start both lookups at once: the client's settings and the place.
-  var cfgP = getJSON('clients/' + CLIENT + '.json');
+  var cfgP = getJSON('clients/' + CLIENT + '.json', true);
   var placeP = (function next(i) {
     if (i >= ids.length) return Promise.resolve(null);
     var src = ids[i][0], id = ids[i][1];
